@@ -27,8 +27,6 @@ export function SubContent({ tasks, onDelete, onComplete }: ISubContent) {
           </span>
         </div>
       </header>
-      {/* any[] => any */}
-      {/* ITask[] => ITask */}
       <div className="list">
         {tasks.map((task) => (
           <MainContent

@@ -3,9 +3,9 @@ import "./App.css";
 import { Layout } from "antd";
 import Logo from "./Components/Logo/Logo";
 import Menu from "./Components/Menu/Menu";
-import Todo from "./Components/Todo/Todo";
+import SaveLoad from "./Components/SaveLoad/SaveLoad";
 
-const { Header, Sider, Content, Footer } = Layout;
+const { Header, Footer, Sider, Content } = Layout;
 function App() {
   return (
     <Layout>
@@ -15,13 +15,13 @@ function App() {
       </Sider>
 
       <Layout>
-        <Header>
-          <Todo />
-        </Header>
+        <Header></Header>
       </Layout>
 
       <Layout>
-        <Content></Content>
+        <Content>
+          <SaveLoad />
+        </Content>
       </Layout>
 
       <Layout>
