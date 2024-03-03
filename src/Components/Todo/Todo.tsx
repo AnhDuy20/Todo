@@ -1,5 +1,4 @@
 import "./TodoStyle.css";
-import { PlusCircleOutlined } from "@ant-design/icons";
 import { useState } from "react";
 
 type ITodo = {
@@ -21,7 +20,7 @@ export function Todo({ handleAddTask }: ITodo) {
   }
 
   return (
-    <header className="headerStyle">
+    <header className="headerSty">
       <form onSubmit={handleSubmit} className="formStyle">
         <input
           placeholder="Bạn muốn làm gì ?"
@@ -29,9 +28,6 @@ export function Todo({ handleAddTask }: ITodo) {
           onChange={onChangeTitle}
           value={title}
         />
-        <button>
-          Tạo mới <PlusCircleOutlined />
-        </button>
       </form>
     </header>
   );

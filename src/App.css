@@ -1,5 +1,5 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -43,4 +43,28 @@
 
 .mainMenu {
   color: #fff;
+}
+
+.layoutStyle {
+  border-radius: 8;
+  overflow: "hidden";
+  width: "calc(50% - 8px)";
+  max-width: "calc(50% - 8px)";
+}
+
+.headerStyle {
+  text-align: "center";
+  height: 64;
+  padding-inline: 48;
+  line-height: "64px";
+  background-color: rgb(27, 26, 25);
+}
+
+.contentStyle {
+  background-color: rgb(17, 16, 15);
+}
+
+.siderStyle {
+  text-align: "center";
+  line-height: "120px";
 }

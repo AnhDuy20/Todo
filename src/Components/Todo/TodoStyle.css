@@ -1,13 +1,12 @@
-.header {
-  background: #0d0d0d;
+.headerSty {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 100px;
   position: relative;
 }
 
-.newTaskForm {
+.formStyle {
   position: absolute;
   height: 54px;
   bottom: -27px;
@@ -18,7 +17,7 @@
   padding: 0 1rem;
 }
 
-.newTaskForm input {
+.formStyle input {
   height: 100%;
   flex: 1;
   color: #fff;
@@ -29,11 +28,11 @@
   font-size: 16px;
 }
 
-.newTaskForm input::placeholder {
+.formStyle input::placeholder {
   color: #808080;
 }
 
-.newTaskForm button {
+.formStyle button {
   height: 100%;
   padding: 0 16px;
   background: #1e6f9f;
